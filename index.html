@@ -133,8 +133,8 @@
         </div>
 
         <div class="tracker-section">
-            <h2>সিলেবাস ও চ্যাপ্টার তালিকা (৭৪টি চ্যাপ্টার)</h2>
-            <p>যে চ্যাপ্টারটি শেষ হবে, সেটির বাম পাশের বক্সে টিক চিহ্ন দিন। প্রগ্রেস বার স্বয়ংক্রিয়ভাবে আপডেট হবে।</p>
+            <h2>আপনার মনের মত ওয়েব সাইট</h2>
+            <p>একানে সব কিছু আপনাকে দেখানোর জন্য উদাহরণ</p>
             
             <div class="chapter-list" id="chapterContainer">
                 </div>
@@ -143,7 +143,7 @@
     </div>
 
     <script>
-        const totalChapters = 74;
+        const totalChapters = 10;
         const container = document.getElementById('chapterContainer');
         const progressBar = document.getElementById('myProgressBar');
 
@@ -165,7 +165,7 @@
 
             const label = document.createElement('label');
             label.htmlFor = 'ch-' + i;
-            label.innerText = 'চ্যাপ্টার ' + i;
+            label.innerText = 'আমাদের পরিকল্পনা ' + i;
 
             checkbox.addEventListener('change', function() {
                 if (this.checked) {

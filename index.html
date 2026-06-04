@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ডিজিটাল ইনফরমেশন অ্যান্ড প্রগ্রেস ট্র্যাকিং সিস্টেম</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .welcome-box {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 25px;
+            border-left: 5px solid #003366;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            color: #003366;
+            margin-top: 0;
+            border-bottom: 2px solid #f4f6f9;
+            padding-bottom: 10px;
+        }
+        .progress-container {
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            margin: 15px 0 10px 0;
+        }
+        .progress-bar {
+            background-color: #28a745;
+            color: white;
+            padding: 3px 0;
+            text-align: center;
+            font-size: 12px;
+            border-radius: 10px;
+            width: 0%; /* শুরুতে ০% থাকবে */
+        }
+        .btn {
+            display: inline-block;
+            background-color: #003366;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #002244;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ডিজিটাল ইনফরমেশন অ্যান্ড প্রগ্রেস ট্র্যাকিং সিস্টেম</h1>
+        <p style="margin: 5px 0 0 0; font-size: 14px;">কালারমারছড়া ইউনিয়ন পরিষদ</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="welcome-box">
+            <h2>স্বাগতম, অ্যাডমিন প্যানেল</h2>
+            <p>এই প্ল্যাটফর্মের মাধ্যমে যেকোনো পরিকল্পনা, প্রাতিষ্ঠানিক তথ্য সংরক্ষণ এবং প্রজেক্টের চলমান অগ্রগতি ট্র্যাক করা যাবে।</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>পরিকল্পনা ও অগ্রগতি ট্র্যাকার</h3>
+                <p>চলমান প্রজেক্ট ও লক্ষ্যসমূহের বর্তমান অবস্থা এবং অগ্রগতি দেখুন।</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 50%;">৫০% সম্পন্ন</div>
+                </div>
+                <a href="#" class="btn">বিস্তারিত দেখুন</a>
+            </div>
+
+            <div class="card">
+                <h3>সেন্ট্রাল ডেটাবেজ</h3>
+                <p>গুরুত্বপূর্ণ নোটিশ, তথ্য এবং প্রাতিষ্ঠানিক রুটিনসমূহ সুরক্ষিতভাবে সংরক্ষণ করুন।</p>
+                <a href="#" class="btn">তথ্য যুক্ত করুন</a>
+            </div>
+
+            <div class="card">
+                <h3>ভবিষ্যত এক্সটেনশন</h3>
+                <p>নতুন কোনো মডিউল বা কাস্টম অ্যাপ্লিকেশন যুক্ত করার জন্য এই সেকশনটি ব্যবহৃত হবে।</p>
+                <a href="#" class="btn">কনফিগার করুন</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
